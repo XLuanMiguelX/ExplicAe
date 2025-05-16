@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExplicAe - Aprenda o que é a internet das coisas </title>
+    <link rel="stylesheet" href="../assets/styles/pages/css/index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">ExplicAe</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#IoT-intro">Introdução</a></li>
+                    <li><a href="#video">conceitos</a></li>
+                    <li><a href="#exemplos">Exemplos</a></li>
+                    <li><a href="#conclusao">conclusão</a></li>
+                </ul>
+                <div class="menu-toggle">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Sistema Operacional, ou simplificando SO </h1>
+            <p>Nesse site você aprenderá sobre Sistema Operacional </p>
+            <a href="#IoT-intro" class="btn">Começar a Aprender</a>
+        </div>
+    </section>
+
+    <section class="IoT-intro" id="IoT-intro">
+        <div class="container">
+            <h1 class="section-title">O que é Sistema Operacional?</h1>
+            <div class="texto-introducao">
+                <p>Um Sistema Operacional (SO) é o software fundamental que gerencia todos os recursos de hardware e software de um computador.
+                     Ele atua como uma ponte entre o usuário e a máquina, possibilitando que programas sejam executados de maneira eficiente e segura.
+                      Entre suas funções principais estão o gerenciamento de processos (programas em execução), da memória, dos dispositivos de entrada e saída, dos arquivos armazenados e da segurança do sistema. </p>
+                  <p>Existem diversos tipos de sistemas operacionais, como os de tempo real, embarcados, distribuídos, monousuário ou multiusuário, e multitarefa.
+                     Exemplos populares incluem o Windows, conhecido por sua interface gráfica amigável; o Linux, famoso por sua flexibilidade e uso em servidores; o macOS, usado em computadores Apple; e os sistemas móveis como Android e iOS. Cada um desses sistemas oferece características diferentes dependendo do uso — seja doméstico, profissional, acadêmico ou industrial.
+                    O funcionamento interno de um SO envolve componentes como o kernel (núcleo do sistema), que interage diretamente com o hardware, e o shell, que interpreta os comandos do usuário.</p>
+               
+                <p>  A importância do sistema operacional é enorme, pois ele garante que todos os recursos do computador sejam utilizados de forma otimizada, segura e confiável,
+                     além de permitir que outros softwares possam ser instalados e utilizados com facilidade.</p>                   
+            </div>
+        </div>
+    </section>
+
+    <section class="video-section" id="video">
+        <div class="container">
+            <h1 class="section-title">Videoaula</h1>
+            <div class="video-container">
+                <div class="video-placeholder">
+                    <iframe 
+                    width="100%" 
+                    height="100%" 
+                    src="https://www.youtube.com/shorts/GPngy8SccFI" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="exemplos" id="exemplos">
+        <div class="container">
+            <h2 class="section-title">Exemplos da função de Sistemas Operacionais no cotidiano</h2>
+            <div class="exemplos-grid">
+                <div class="exemplo-card">
+                        <h3>1. Smartphone (Android / iOS)</h3>                 
+                            <ul>
+                                <li>Gerencia chamadas, mensagens e notificações.</li>
+                                <li>Controla o uso de aplicativos (redes sociais, câmera, GPS).</li>
+                                <li>Protege seus dados com senha, biometria e criptografia.</li>
+                            </ul>
+                </div>
+                <div class="exemplo-card">
+                    <h3>2. Computador pessoal (Windows / Linux / macOS)
+</h3>
+                    <ul>
+                            <li>Permite o uso de programas como Word, Excel, navegadores.</li>
+                            <li>Organiza os arquivos e pastas no HD ou SSD.</li>
+                            <li>Executa várias tarefas ao mesmo tempo (multitarefa).</li>
+                            
+                        </ul>
+                </div>
+                <div class="exemplo-card">
+                    <h3>3. Caixa eletrônico (ATM com Linux embarcado)</h3>
+                        <ul>
+                            <li>Garante a segurança na autenticação de usuários.</li>
+                            <li>Controla a interface para saque, saldo e transferências.</li>
+                            <li>Conecta-se com os servidores bancários em tempo real.</li>
+                            
+                        </ul>
+                </div>
+                <div class="exemplo-card">
+                    <h3>4. Carros modernos (Sistemas embarcados com RTOS)</h3>
+                        <ul>
+                            <li>Controla sensores e sistemas como freios ABS e GPS.</li>
+                            <li>Gerencia multimídia, Bluetooth e comandos de voz.</li>
+                            <li>Monitora consumo, velocidade e manutenção.</li>
+                            
+                        </ul>
+                </div>
+                <div class="exemplo-card">
+                    <h3> 5. Hospitais e clínicas</h3>
+                        <ul>
+                            <li>Sistemas com Linux/Windows que organizam prontuários.</li>
+                            <li>Gerenciam agendamentos, exames e medicações.</li>
+                            <li>Suportam equipamentos médicos conectados ao sistema.</li>
+                            
+                        </ul>
+                </div>
+                <div class="exemplo-card">
+                    <h3>6. Lojas e supermercados (PDVs e terminais de venda)</h3>
+                        <ul>
+                            <li>Controlam o caixa e as vendas com sistema Linux ou Windows.</li>
+                            <li>Integram com estoque e emissão de notas fiscais.</li>
+                            <li>Gerenciam leitores de código de barras e impressoras térmicas.</li>
+                    
+                    </ul>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <h3>ExplicAe</h3>
+            <p>Seu portal para o mundo da tecnologia da informação</p>
+            <ul class="footer-links">
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <p>&copy; 2025 ExplicAe. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="../assets/styles/phyton/scripts/script.js"></script>
+</body>
+</html>
